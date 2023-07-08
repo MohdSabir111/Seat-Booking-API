@@ -1,22 +1,19 @@
 ## Seat_Booking_API
 
-## Routes & URL
-
-  ## HOME PAGE
+## Routes
+## HOME PAGE
+ - **https://mohdsabir111-seat-booking-api.onrender.com** 
 
   - **https://mohdsabir111-seat-booking-api.onrender.com/seats**   __<b> Get All Seat</b> 
   
-- **https://mohdsabir111-seat-booking-api.onrender.com/seats/64a92e4a47d927197afd2116**      Get Seat Pricing
+- **https://mohdsabir111-seat-booking-api.onrender.com/seats/64a92e4a47d927197afd2116**     __<b>  Get Seat Pricing</b> 
  
    
-
- 
- 
-- **https://mohdsabir111-seat-booking-api.onrender.com/all-seat-csv** Get All Seat CSV
+- **https://mohdsabir111-seat-booking-api.onrender.com/all-seat-csv**    __<b> Get All Seat CSV </b>
 
   
   
-- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/64a92eb647d927197afd211at** get seat pricing csv
+- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/64a92eb647d927197afd211at**__<b>  Get Seat Pricing CSV </b>
 
    
 
