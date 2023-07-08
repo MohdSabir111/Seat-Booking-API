@@ -15,10 +15,10 @@
 - **https://mohdsabir111-seat-booking-api.onrender.com/all-seat-csv**    __<b> Get All Seat CSV </b>
 
   
-- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/64a92eb647d927197afd211at**__<b>  Get Seat Pricing CSV </b>
+- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/:id**__<b>  Get Seat Pricing CSV </b>
 
 - **https://mohdsabir111-seat-booking-api.onrender.com/seats**  __<b>  Create New Seat </b>
--<b> METHOD : POST  </b>
+- <b>Use METHOD : POST and Send this data in body </b>
     ```
   {
   "seatNumber": "C1",
@@ -26,17 +26,28 @@
   "isBooked": false,
   "minPrice": 1500,
   "normalPrice": 1600,
-  "maxPrice": 1700 }
+  "maxPrice": 1700
+   }
 
-    ```
- -<b> send this data in body   </b>
-
- 
-
-
-
-
-   
+   ```
+ - **https://mohdsabir111-seat-booking-api.onrender.com/booking**  __<b>  Create New Booking </b>
+- <b>Use METHOD : POST and Send this data in body </b>
+ ```
+{
+  "seatIds": ["64a92eb647d927197afd211a"], 
+  "userName": "sabir", 
+  "phoneNumber": "+91988760" 
+}
+```
+- **https://mohdsabir111-seat-booking-api.onrender.com/bookings?userIdentifier=sabir** __<b>  Retrieve Bookings By userIdentifier(userName) </b>
+- <b>Use METHOD : GET and Send this data in Params </b>
+  ```
+  userIdentifier(key)  sabir(value)
+  ```
+- **https://mohdsabir111-seat-booking-api.onrender.com/booking/:id** __<b>  DELETE Booking By id</b>
+- <b>Use METHOD : DELETE and Send the id data in Params </b>
+- **https://mohdsabir111-seat-booking-api.onrender.com/seats/:id**__<b>  DELETE Seat By id</b>
+   - <b>Use METHOD : DELETE and Send the id data in Params </b>
 
 
  
