@@ -15,7 +15,7 @@
 - **https://mohdsabir111-seat-booking-api.onrender.com/all-seat-csv**    __<b> Get All Seat CSV </b>
 
   
-- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/:id**__<b>  Get Seat Pricing CSV </b>
+- **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/:64a92e4a47d927197afd2116**__<b>  Get Seat Pricing CSV By id </b>
 
 - **https://mohdsabir111-seat-booking-api.onrender.com/seats**  __<b>  Create New Seat </b>
 - <b>Use METHOD : POST and Send this data in body </b>
