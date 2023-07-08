@@ -3,8 +3,9 @@
 
 ## HOME PAGE
  - **https://mohdsabir111-seat-booking-api.onrender.com**
- - 
- - ## Routes
+
+   
+  ## Routes
 
   - **https://mohdsabir111-seat-booking-api.onrender.com/seats**   __<b> Get All Seat</b> 
   
