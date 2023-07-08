@@ -4,9 +4,9 @@ const Booking = require('../models/bookingSchem');
 const twilio = require('twilio');
 
 // Twilio credentials
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
+const accountSid = process.env.TWILIO_ACCOUNT_SID||0;
+const authToken = process.env.TWILIO_AUTH_TOKEN||0;
+const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER||0;
 
 // Create Twilio client
 const twilioClient = twilio(accountSid, authToken);
