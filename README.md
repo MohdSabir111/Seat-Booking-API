@@ -15,8 +15,26 @@
 - **https://mohdsabir111-seat-booking-api.onrender.com/all-seat-csv**    __<b> Get All Seat CSV </b>
 
   
-  
 - **https://mohdsabir111-seat-booking-api.onrender.com/seat-pricing-CSV/64a92eb647d927197afd211at**__<b>  Get Seat Pricing CSV </b>
+
+- **https://mohdsabir111-seat-booking-api.onrender.com/seats**  __<b>  Create New Seat </b>
+-<b> METHOD : POST  </b>
+    ```
+  {
+  "seatNumber": "C1",
+  "seatClass": "economy",
+  "isBooked": false,
+  "minPrice": 1500,
+  "normalPrice": 1600,
+  "maxPrice": 1700 }
+
+    ```
+ -<b> send this data in body   </b>
+
+ 
+
+
+
 
    
 
