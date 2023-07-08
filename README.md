@@ -4,7 +4,7 @@
 
   ## HOME PAGE
 
-  - **https://mohdsabir111-seat-booking-api.onrender.com/seatst**   __<b> Get All Seat</b> 
+  - **https://mohdsabir111-seat-booking-api.onrender.com/seats**   __<b> Get All Seat</b> 
   
 - **https://mohdsabir111-seat-booking-api.onrender.com/seats/64a92e4a47d927197afd2116**      Get Seat Pricing
  
