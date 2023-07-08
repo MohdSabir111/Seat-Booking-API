@@ -1,8 +1,10 @@
 ## Seat_Booking_API
 
-## Routes
+
 ## HOME PAGE
- - **https://mohdsabir111-seat-booking-api.onrender.com** 
+ - **https://mohdsabir111-seat-booking-api.onrender.com**
+ - 
+ - ## Routes
 
   - **https://mohdsabir111-seat-booking-api.onrender.com/seats**   __<b> Get All Seat</b> 
   
