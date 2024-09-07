@@ -19,7 +19,7 @@
 
 - **https://mohdsabir111-seat-booking-api.onrender.com/seats**  __<b>  Create New Seat </b>
 - <b>Use METHOD : POST and Send this data in body </b>
-    ```
+    ```json
   {
   "seatNumber": "C1",
   "seatClass": "economy",
@@ -32,7 +32,7 @@
    ```
  - **https://mohdsabir111-seat-booking-api.onrender.com/booking**  __<b>  Create New Booking </b>
 - <b>Use METHOD : POST and Send this data in body </b>
- ```
+ ```js
 {
   "seatIds": ["64a92eb647d927197afd211a"], 
   "userName": "sabir", 
